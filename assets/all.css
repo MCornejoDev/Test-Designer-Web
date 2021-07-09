@@ -1,0 +1,283 @@
+/*#region NAV*/
+
+.logo {
+    position: initial;
+    z-index: 1;
+}
+
+.logo img {
+    width: 70%;
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        display: initial;
+        position: absolute;
+        z-index: 1;
+    }
+    .logo img {
+        width: initial;
+    }
+    nav.navbar {
+        padding: 15px 10px 15px 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .nav-item::before {
+        content: "/";
+        display: inline-block;
+        transform: scale(2);
+        font-weight: bold;
+    }
+}
+
+.nav-link {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+.redondo em::before {
+    color: #fff;
+}
+
+/*#endregion*/
+
+/*#region CARROUSEL*/
+
+.carousel-indicators>li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    color: orange;
+    border: 1px solid whitesmoke;
+}
+
+.carousel-indicators .active {
+    background-color: orange;
+}
+
+.message, .message2 {
+    display: none;
+}
+
+@media screen and (min-width:426px) {
+    .message {
+        display: initial;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+    .message span {
+        float: right;
+        padding: 10px 10px 10px 10px;
+        color: white;
+        background-color: rgba(78, 145, 245, 0.61);
+        font-weight: bold !important;
+    }
+    .message2 {
+        display: initial;
+        position: absolute;
+        z-index: 1;
+        bottom: 20px;
+        margin-left: 2em;
+        width: 40vw;
+        border-right: 10px solid orange;
+    }
+    .message2 div {
+        color: rgb(36, 36, 36);
+        background-color: #ffffffba;
+        font-weight: bold !important;
+        padding: 10px 15px 10px 15px;
+    }
+    .message2 div p {
+        color: grey;
+        font-size: 15px;
+    }
+    .message2 div a {
+        font-size: 15px;
+    }
+}
+
+/*#endregion*/
+
+/*#region PARTIDO ACTUAL*/
+
+.main-partido {
+    background-color: rgb(47, 44, 61);
+}
+
+.partido {
+    color: white;
+}
+
+.partido .row {
+    align-items: center;
+}
+
+.fixture, .equipos {
+    font-size: x-large;
+}
+
+@media screen and (max-width:426px) {
+    .equipos img {
+        width: 25vw !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .fecha_estreno {
+        text-align: center;
+    }
+}
+
+.equipos-vs {
+    border: 1px solid white;
+    padding: 1px 10px 1px 10px;
+    font-size: smaller;
+}
+
+.message3 {
+    color: rgb(36, 36, 36);
+    background-color: #ffffffba;
+    font-weight: bold !important;
+    padding: 10px 15px 10px 15px;
+    border-right: 10px solid orange;
+    text-transform: uppercase;
+    width: max-content;
+    margin: 0 auto;
+}
+
+/*#endregion*/
+
+/*#region LATEST NEWS*/
+
+.h1 {
+    border-left: 5px solid orange;
+    font-size: x-large;
+}
+
+.latest_news {
+    width: 100vw !important;
+    border-bottom: 5px solid orange;
+}
+
+.cards {
+    padding: 0px 0px 0px 0px !important;
+    text-align: justify;
+}
+
+.more_news {
+    color: rgb(60, 60, 180) !important;
+}
+
+.message4 {
+    display: initial;
+    position: relative;
+    z-index: 1;
+    bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    color: white;
+    font-size: large;
+}
+
+/*#endregion*/
+
+/*#region PRÓXIMOS PARTIDOS*/
+
+.proximos_partidos, .others_news, .channel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: 50%;
+}
+
+.proximos_partidos div.container-fluid:nth-child(1) {
+    border-bottom: 10px solid white;
+    padding-bottom: 50px !important;
+}
+
+.proximos_partidos div.container-fluid div.row:nth-child(even) div:nth-child(2) {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+}
+
+.proximos_partidos div.container-fluid div.row:nth-child(odd) div img {
+    width: 65px !important;
+    display: inline-block;
+}
+
+.proximos_partidos div.container-fluid div.row:nth-child(even) {
+    text-align: center;
+}
+
+.proximos_partidos div.container-fluid div.row:nth-child(odd) div h1 {
+    display: inline;
+    position: relative;
+    top: 6%;
+}
+
+@media screen and (max-width:425px) {
+    .proximos_partidos div.container-fluid div.row:nth-child(even) div:nth-child(2) {
+        border-bottom: 1px solid white !important;
+        border-top: 1px solid white !important;
+        border-right: none;
+        border-left: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .proximos_partidos div.container-fluid div.row:nth-child(odd) div img {
+        width: 15% !important;
+        display: inline-block;
+    }
+    .proximos_partidos div.container-fluid div.row:nth-child(odd) div h1 {
+        font-size: 15px;
+    }
+}
+
+.container_flecha_partidos {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .container_flecha_partidos {
+        float: right;
+        position: relative;
+        top: -95px;
+        display: initial;
+    }
+    .container_flecha_partidos em {
+        padding: 5px 10px 5px 10px;
+        border: 1px solid orange !important;
+        background-color: orange;
+        color: white;
+    }
+}
+
+/*#endregion*/
+
+/*#region OTHERS NEWS*/
+
+.others_news {
+    background-image: url('./fondo_other_news.jpg') !important;
+}
+
+/*#endregion*/
+
+/*#region OTHERS NEWS*/
+
+.channel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos.jpg') !important;
+}
+
+/*#endregion*/
