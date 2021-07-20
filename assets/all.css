@@ -104,7 +104,7 @@
 
 /*#endregion*/
 
-/*#region PARTIDO ACTUAL*/
+/*#region CURRENT MATCH*/
 
 .main-partido {
     background-color: rgb(47, 44, 61);
@@ -187,9 +187,9 @@
 
 /*#endregion*/
 
-/*#region PRÓXIMOS PARTIDOS*/
+/*#region UPCOMING MATCHES*/
 
-.proximos_partidos, .others_news, .channel {
+.proximos_partidos, .others_news, .channel, footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,10 +274,149 @@
 
 /*#endregion*/
 
-/*#region OTHERS NEWS*/
+/*#region CHANNEL*/
 
 .channel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos.jpg') !important;
+    border-left: 20px solid orange;
+}
+
+.channel_child {
+    padding-left: 3rem;
+}
+
+@media screen and (max-width:425px) {
+    .channel {
+        border-left: none;
+    }
+    .channel_child {
+        padding-left: initial !important;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .embed-responsive {
+        width: 75%;
+    }
+}
+
+/*#endregion*/
+
+/*#region EMPRESAS*/
+
+.carrousel-style {
+    width: 250px;
+    margin: 0 auto;
+    display: none;
+}
+
+.carrousel-item-style {
+    height: 100px;
+    width: 250px;
+}
+
+.empresas {
+    display: none;
+}
+
+@media screen and (min-width:769px) {
+    .empresas {
+        display: inherit;
+    }
+    .empresas img {
+        height: 100px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carrousel-style {
+        display: inherit;
+    }
+}
+
+/*#endregion*/
+
+/*#region FOOTER*/
+
+footer {
+    background: linear-gradient(173deg, black, #949494);
+    color: white;
+}
+
+footer ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+footer ul li {
+    list-style: none !important;
+}
+
+footer .first, footer .second h3, footer .third {
+    text-align: center;
+}
+
+footer .second {
+    margin: 0 auto;
+}
+
+footer .second h3, footer .third h3 {
+    color: orange;
+}
+
+@media screen and (max-width:425px) {
+    footer ul {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    footer ul {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding-left: 0px;
+    }
+    footer .second {
+        text-align: center;
+    }
+    footer .second ul {
+        display: inline-block;
+        text-align: left;
+    }
+    footer h3 {
+        text-align: center;
+    }
+}
+
+.redes-follow {
+    display: inline-flex;
+    font-weight: bold;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+
+.redes-follow em {
+    margin: 0 auto;
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+}
+
+.copyright div:last-child {
+    text-align: right !important;
+}
+
+@media screen and (max-width:769px) {
+    .copyright, .copyright div:last-child {
+        text-align: center !important
+    }
 }
 
 /*#endregion*/
