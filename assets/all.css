@@ -208,12 +208,12 @@
     background-position: 50%;
 }
 
-.proximos_partidos div.container-fluid:nth-child(1) {
+.proximos_partidos .proximos_partidos_container {
     border-bottom: 10px solid white;
     padding-bottom: 50px !important;
 }
 
-.proximos_partidos div.container-fluid div.row:nth-child(even) div:nth-child(2) {
+.proximos_partidos .row-style div:nth-child(2) {
     border-right: 1px solid white;
     border-left: 1px solid white;
     border-bottom: none;
@@ -236,7 +236,7 @@
 }
 
 @media screen and (max-width:425px) {
-    .proximos_partidos div.container-fluid div.row:nth-child(even) div:nth-child(2) {
+    .proximos_partidos .row-style div:nth-child(2) {
         border-bottom: 1px solid white !important;
         border-top: 1px solid white !important;
         border-right: none;
@@ -255,6 +255,19 @@
     }
 }
 
+@media screen and (min-width:426px) and (max-width:767px) {
+    .proximos_partidos .row-style div:nth-child(2) {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: none;
+        border-left: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 .container_flecha_partidos {
     display: none;
 }
@@ -265,6 +278,10 @@
         position: relative;
         top: -95px;
         display: initial;
+    }
+    .container_flecha_partidos a {
+        position: inherit;
+        display: inherit;
     }
     .container_flecha_partidos em {
         padding: 5px 10px 5px 10px;
@@ -287,7 +304,7 @@
 /*#region CHANNEL*/
 
 .channel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos.jpg') !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./proximos_partidos2.jpg') !important;
     border-left: 20px solid orange;
 }
 
@@ -299,8 +316,16 @@
     .channel {
         border-left: none;
     }
+    .channel_child_message{
+        width: max-content;
+        text-align: center;
+        margin: 0 auto;
+    }
+
     .channel_child {
         padding-left: initial !important;
+        text-align: center;
+
     }
 }
 
@@ -321,7 +346,7 @@
 }
 
 .carrousel-item-style {
-    height: 100px;
+    height: max-content;
     width: 250px;
 }
 
@@ -334,7 +359,7 @@
         display: inherit;
     }
     .empresas img {
-        height: 100px !important;
+        height: 200px !important;
     }
 }
 
@@ -400,6 +425,10 @@ footer .second h3, footer .third h3 {
     footer h3 {
         text-align: center;
     }
+}
+
+.redes-follow-container:link, .redes-follow-container:visited, .redes-follow-container:hover, .redes-follow-container:active {
+    text-decoration: none;
 }
 
 .redes-follow {
