@@ -18,3 +18,9 @@
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_03.png "Diseño tablet03")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_04.png "Diseño tablet04")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_05.png "Diseño tablet05")
+
+<p>Diseño temporal pc</p>
+
+![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_01.png "Diseño pc01")
+![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_02.png "Diseño pc02")
+![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_03.png "Diseño pc03")
