@@ -1,6 +1,6 @@
 <h1>Diseño de una página web de futbol</h1>
 
-<p>Diseño temporal mobile</p>
+<p>Diseño mobile</p>
 
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_01.png "Diseño móvil01")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_02.png "Diseño móvil02")
@@ -11,7 +11,7 @@
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_07.png "Diseño móvil07")
 
 
-<p>Diseño temporal tablet</p>
+<p>Diseño tablet</p>
 
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_01.png "Diseño tablet01")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_02.png "Diseño tablet02")
@@ -19,7 +19,7 @@
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_04.png "Diseño tablet04")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_05.png "Diseño tablet05")
 
-<p>Diseño temporal pc</p>
+<p>Diseño pc</p>
 
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_01.png "Diseño pc01")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_02.png "Diseño pc02")
