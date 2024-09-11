@@ -1,6 +1,6 @@
 <h1>Diseño de una página web de futbol</h1>
 
-<p>Diseño mobile</p>
+<p>Diseño móvil</p>
 
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_01.png "Diseño móvil01")
 ![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_02.png "Diseño móvil02")
