@@ -2,6 +2,20 @@
 
 [Enlace al diseño](https://mcornejodev.github.io/Web-Template/)
 
+## Índice
+
+1. [Diseño móvil](#diseño-móvil)
+2. [Diseño tablet](#diseño-tablet)
+3. [Diseño pc](#diseño-pc)
+4. [Descripción de las Tecnologías](#descripción-de-las-tecnologías)
+   - [Bootstrap 4.1.3](#bootstrap-413)
+   - [Font Awesome 5.9.0](#font-awesome-590)
+   - [Hoja de estilos personalizada](#hoja-de-estilos-personalizada)
+   - [jQuery 3.3.1](#jquery-331)
+   - [Popper.js 1.14.3](#popperjs-1143)
+   - [Bootstrap 4.1.3 JavaScript](#bootstrap-413-javascript)
+   - [Script personalizado](#script-personalizado)
+
 ## Diseño móvil
 
 ![Diseño móvil01](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_01.png)
