@@ -1,28 +1,27 @@
-<h1>Diseño de una página web de futbol</h1>
+# Diseño de una página web de futbol
 
 ![Alt text](https://mcornejodev.github.io/Web-Template/)
 
-<p>Diseño móvil</p>
+## Diseño móvil
 
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_01.png "Diseño móvil01")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_02.png "Diseño móvil02")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_03.png "Diseño móvil03")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_04.png "Diseño móvil04")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_05.png "Diseño móvil05")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_06.png "Diseño móvil06")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_07.png "Diseño móvil07")
+![Diseño móvil01](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_01.png)
+![Diseño móvil02](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_02.png)
+![Diseño móvil03](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_03.png)
+![Diseño móvil04](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_04.png)
+![Diseño móvil05](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_05.png)
+![Diseño móvil06](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_06.png)
+![Diseño móvil07](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_mobile_07.png)
 
+## Diseño tablet
 
-<p>Diseño tablet</p>
+![Diseño tablet01](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_01.png)
+![Diseño tablet02](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_02.png)
+![Diseño tablet03](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_03.png)
+![Diseño tablet04](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_04.png)
+![Diseño tablet05](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_05.png)
 
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_01.png "Diseño tablet01")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_02.png "Diseño tablet02")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_03.png "Diseño tablet03")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_04.png "Diseño tablet04")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_tablet_05.png "Diseño tablet05")
+## Diseño pc
 
-<p>Diseño pc</p>
-
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_01.png "Diseño pc01")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_02.png "Diseño pc02")
-![Alt text](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_03.png "Diseño pc03")
+![Diseño pc01](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_01.png)
+![Diseño pc02](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_02.png)
+![Diseño pc03](https://github.com/MCornejoDev/Test-Designer-Web/blob/master/docs/diseño_provisional_pc_03.png)
