@@ -1,6 +1,6 @@
 # Diseño de una página web de futbol
 
-![Alt text](https://mcornejodev.github.io/Web-Template/)
+[Enlace al diseño](https://mcornejodev.github.io/Web-Template/)
 
 ## Diseño móvil
 
